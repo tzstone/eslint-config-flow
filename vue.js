@@ -11,8 +11,10 @@ module.exports = {
     node: true,
     es6: true,
   },
-  // dependencies: eslint eslint-plugin-vue
-  extends: ['plugin:vue/recommended', 'eslint:recommended'],
+  // dependencies: eslint eslint-plugin-vue eslint-plugin-prettier eslint-config-prettier
+  // eslint-config-prettier: 关闭所有可能与prettier冲突的eslint样式规则
+  // eslint-plugin-prettier: 将prettier当做eslint规则运行
+  extends: ['plugin:vue/recommended', 'eslint:recommended', 'plugin:prettier/recommended'],
   rules: {
     ...rules,
     "vue/max-attributes-per-line": [2, {
