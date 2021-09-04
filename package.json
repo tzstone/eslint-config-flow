@@ -1,19 +1,29 @@
 {
-  "name": "eslint-config-flow",
+  "name": "eslint-plugin-flow",
   "version": "1.0.0",
-  "description": "",
+  "description": "eslint plugin",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tzstone/eslint-config-flow.git"
+    "url": "git+https://github.com/tzstone/eslint-plugin-flow.git"
   },
-  "author": "",
+  "author": "flow",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tzstone/eslint-config-flow/issues"
+    "url": "https://github.com/tzstone/eslint-plugin-flow/issues"
   },
-  "homepage": "https://github.com/tzstone/eslint-config-flow#readme"
+  "homepage": "https://github.com/tzstone/eslint-plugin-flow#readme",
+  "dependencies": {
+    "@babel/eslint-parser": "^7.12.0",
+    "@typescript-eslint/eslint-plugin": "^4.28.0",
+    "@typescript-eslint/parser": "^4.28.0",
+    "eslint": "~7.29.0",
+    "eslint-config-prettier": "~8.3.0",
+    "eslint-plugin-prettier": "~3.4.0",
+    "eslint-plugin-vue": "~7.13.0",
+    "prettier": "~2.3.0"
+  }
 }

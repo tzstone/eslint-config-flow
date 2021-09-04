@@ -1,18 +1,9 @@
-const rules = require('./rules');
-
 module.exports = {
-  root: true,
-  env: {
-    browser: true,
-    node: true,
-    es6: true,
+  configs: {
+    common: require('./config/common'),
+    vue: require('./config/vue'),
+    'common-ts': require('./config/common-ts'),
+    'vue-ts': require('./config/vue-ts')
   },
-  parserOptions: {
-    sourceType: 'module',
-    ecmaFeatures: {
-      experimentalObjectRestSpread: true,
-      jsx: true
-    }
-  },
-  rules: rules
-};
+  rules: {}
+}

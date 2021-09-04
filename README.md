@@ -1,35 +1,20 @@
-# eslint-config-flow
+# eslint-plugin-flow
 
 ## Usage
 
-### eslint-config-flow
+### eslint-plugin-flow
 
 install package
 
 ```code
-npm install --save-dev eslint-config-flow eslint
+npm install --save-dev eslint-plugin-flow
 ```
 
-.eslintrc file
+.eslintrc.js file
 
 ```code
-{
-  "extends": "flow"
-}
-```
-
-### eslint-config-flow/vue
-
-install package
-
-```code
-npm install --save-dev eslint-config-flow eslint eslint-plugin-vue babel-eslint
-```
-
-.eslintrc file
-
-```code
-{
-  "extends": "flow/vue"
-}
+extends: ['plugin:flow/common'],
+extends: ['plugin:flow/vue'],
+extends: ['plugin:flow/common-ts'],
+extends: ['plugin:flow/vue-ts'],
 ```
