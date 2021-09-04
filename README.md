@@ -36,7 +36,7 @@ module.exports = {
 }
 ```
 
-## .editorconfig
+#### .editorconfig
 
 ```txt
 root = true
