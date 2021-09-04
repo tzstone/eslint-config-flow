@@ -1,10 +1,7 @@
 module.exports = {
   extends: ['plugin:vue/recommended', require.resolve('./common')],
   rules: {
-    'vue/max-attributes-per-line': ['error', {
-      'singleline': 5,
-      'multiline': 1
-    }],
+    'vue/max-attributes-per-line': 'off',
     'vue/singleline-html-element-content-newline': 'off',
     'vue/no-v-html': 'off',
     'vue/require-default-prop': 'off',
