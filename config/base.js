@@ -14,8 +14,11 @@ module.exports = {
   },
   // eslint-config-prettier: 关闭所有可能与prettier冲突的eslint样式规则
   // eslint-plugin-prettier: 将prettier当做eslint规则运行
-  extends: ['eslint:recommended', 'plugin:prettier/recommended'], // 解决eslint和prettier冲突
+  plugins: ['prettier'],
+  extends: ['eslint:recommended', 'prettier'],
   rules: {
+    'prettier/prettier': 'warn',
+    'no-unused-vars': 'warn',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-console': 'off',
     'semi': ['error', 'never'],

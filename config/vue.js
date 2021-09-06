@@ -6,7 +6,11 @@ module.exports = {
       parser: 'vue-eslint-parser',
       extends: 'plugin:vue/recommended',
       rules: {
-        'vue/max-attributes-per-line': 'off', // 与prettier冲突
+        'prettier/prettier': 'off',
+        'vue/max-attributes-per-line': ['error', {
+          singleline: 3,
+          multiline: 1
+        }],
         'vue/singleline-html-element-content-newline': 'off',
         'vue/no-v-html': 'off',
         'vue/require-default-prop': 'off',
