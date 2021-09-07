@@ -29,8 +29,9 @@ module.exports = {
 
 ```json
 {
+  "printWidth": 120,
   "singleQuote": true,
-  "trailingComma": "es5",
+  "trailingComma": "none",
   "semi": false,
   "arrowParens": "avoid"
 }
