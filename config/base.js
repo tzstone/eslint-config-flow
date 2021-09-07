@@ -17,11 +17,11 @@ module.exports = {
   plugins: ['prettier'],
   extends: ['eslint:recommended', 'prettier'],
   rules: {
-    'prettier/prettier': ['warn', {
+    'prettier/prettier': [1, {
       endOfLine: 'auto'
     }],
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'arrow-parens':['error', 'as-needed'],
+    'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
+    'arrow-parens':[2, 'as-needed'],
     'accessor-pairs': 2,
     'arrow-spacing': [2, {
       'before': true,
@@ -44,7 +44,7 @@ module.exports = {
     'curly': [2, 'multi-line'],
     'dot-location': [2, 'property'],
     'eol-last': 2,
-    'eqeqeq': ["error", "always", {"null": "ignore"}],
+    'eqeqeq': [1, "always", {"null": "ignore"}],
     'generator-star-spacing': [2, {
       'before': true,
       'after': true
