@@ -6,12 +6,12 @@ module.exports = {
       parser: '@typescript-eslint/parser',
       extends: 'plugin:@typescript-eslint/recommended',
       rules: {
-        '@typescript-eslint/ban-ts-comment': 'off', // 禁止ts指令注释
-        '@typescript-eslint/ban-types': 'off',
-        '@typescript-eslint/no-explicit-any': 'off', // 禁止使用any类型
-        '@typescript-eslint/no-var-requires': 'off',
-        '@typescript-eslint/triple-slash-reference': 'off',
-        '@typescript-eslint/explicit-module-boundary-types': 'off'
+        '@typescript-eslint/ban-ts-comment': 0, // 禁止ts指令注释
+        '@typescript-eslint/ban-types': 0,
+        '@typescript-eslint/no-explicit-any': 0, // 禁止使用any类型
+        '@typescript-eslint/no-var-requires': 0,
+        '@typescript-eslint/triple-slash-reference': 0,
+        '@typescript-eslint/explicit-module-boundary-types': 0
       }
     }
   ]
