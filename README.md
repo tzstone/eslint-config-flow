@@ -55,16 +55,3 @@ max_line_length = 120
 end_of_line = crlf
 
 ```
-
-#### package
-
-```code
-- "@babel/eslint-parser": "^7.12.0",
-- "@typescript-eslint/parser": "^4.28.0",
-- "@typescript-eslint/eslint-plugin": "^4.28.0",
-- "eslint-plugin-vue": "~7.13.0",
-- "eslint-config-prettier": "~8.3.0",
-- "eslint-plugin-prettier": "~3.4.0",
-- "eslint": "~6.8.0",
-- "prettier": "~2.3.0"
-```
