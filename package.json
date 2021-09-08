@@ -1,8 +1,13 @@
 {
-  "name": "eslint-plugin-flow",
-  "version": "1.0.0",
+  "name": "eslint-plugin-zflow",
+  "version": "1.0.1",
   "description": "eslint plugin",
   "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslint plugin",
+    "vue"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

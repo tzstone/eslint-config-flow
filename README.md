@@ -1,13 +1,13 @@
-# eslint-plugin-flow
+# eslint-plugin-zflow
 
 ## Usage
 
-### eslint-plugin-flow
+### eslint-plugin-zflow
 
 #### 安装
 
 ```code
-npm install --save-dev eslint-plugin-flow
+npm install --save-dev eslint-plugin-zflow
 ```
 
 #### 删除项目工程中与 eslint,prettier 相关的依赖
@@ -18,10 +18,10 @@ npm install --save-dev eslint-plugin-flow
 module.exports = {
   root: true,
   // 按需选择extends
-  extends: ["plugin:flow/common"],
-  // extends: ['plugin:flow/vue'],
-  // extends: ['plugin:flow/common-ts'],
-  // extends: ['plugin:flow/vue-ts'],
+  extends: ["plugin:zflow/common"],
+  // extends: ['plugin:zflow/vue'],
+  // extends: ['plugin:zflow/common-ts'],
+  // extends: ['plugin:zflow/vue-ts'],
 };
 ```
 
