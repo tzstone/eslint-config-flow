@@ -23,7 +23,7 @@ module.exports = {
       arrowParens: 'avoid',
       semi: false,
       singleQuote: true,
-      printWidth: 100
+      printWidth: 120
     }],
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
     'arrow-parens':[2, 'as-needed'],
