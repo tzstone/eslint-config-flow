@@ -18,7 +18,12 @@ module.exports = {
   extends: ['eslint:recommended', 'prettier'],
   rules: {
     'prettier/prettier': [1, {
-      endOfLine: 'auto'
+      endOfLine: 'auto',
+      trailingComma: 'none',
+      arrowParens: 'avoid',
+      semi: false,
+      singleQuote: true,
+      printWidth: 100
     }],
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
     'arrow-parens':[2, 'as-needed'],
@@ -169,7 +174,7 @@ module.exports = {
       'after': true
     }],
     'space-before-blocks': [2, 'always'],
-    'space-before-function-paren': [2, 'never'],
+    'space-before-function-paren': 0,
     'space-in-parens': [2, 'never'],
     'space-infix-ops': 2,
     'space-unary-ops': [2, {

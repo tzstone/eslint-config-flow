@@ -29,7 +29,7 @@ module.exports = {
 
 ```json
 {
-  "printWidth": 120,
+  "printWidth": 100,
   "singleQuote": true,
   "trailingComma": "none",
   "semi": false,
@@ -49,7 +49,7 @@ charset = utf-8
 end_of_line = lf
 insert_final_newline = true
 trim_trailing_whitespace = true
-max_line_length = 120
+max_line_length = 100
 
 [**.bat]
 end_of_line = crlf
