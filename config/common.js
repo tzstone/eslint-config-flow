@@ -22,8 +22,7 @@ module.exports = {
       trailingComma: 'none',
       arrowParens: 'avoid',
       semi: false,
-      singleQuote: true,
-      printWidth: 120
+      singleQuote: true
     }],
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
     'arrow-parens':[2, 'as-needed'],
